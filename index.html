@@ -24,8 +24,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
 
-  <title>Academic Project Page</title>
-  <link rel="icon" type="image/x-icon" href="static/images/favicon.ico">
+  <title>VQAonline</title>
+  <link rel="icon" type="image/x-icon" href="static/images/vqaonline1.png">
   <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
   rel="stylesheet">
 
@@ -55,6 +55,8 @@
     content: "";
     display: table;
     clear: both;
+    }
+    pre{white-space:pre-wrap;white-space:-moz-pre-wrap;white-space:-o-pre-wrap;word-wrap:break-word;
     }
     </style>
 </head>
@@ -203,7 +205,7 @@
         <!-- Results. -->
         <div class="columns is-centered has-text-centered">
           <div class="column is-six-fifths">
-            <h2 class="title is-3"><img id="painting_icon" width="3%" src="https://cdn-icons-png.flaticon.com/512/3515/3515174.png"> VQAonline Dataset</h2>
+            <h2 class="title is-3"><img id="painting_icon" width="3%" src="static/images/vqaonline1.png"> VQAonline</h2>
           </div>
         </div>
       
@@ -224,8 +226,8 @@
       
           </div>
       
-          <p style="font-family:Times New Roman"></p><b>
-            VQAonline is the first to originate from an authentic VQA use case end to end, including with authentic context and answers, as well as the first VQA dataset sourced from an online question answering community.</b>     </p>          
+          <p ></p>
+            VQAonline is the first to originate from an authentic VQA use case end to end, including with authentic context and answers, as well as the first VQA dataset sourced from an online question answering community.   </p>          
           </div>
         </div>
 
@@ -238,24 +240,24 @@
 
                 <div class="row2">
                     <div class="column2" style="">
-                        <p style="font-family:Times New Roman"></p><b>
+                        <p ></p><b>
                             The VQAonline dataset includes:</b>     </p>       
-                            <p style="font-family:Times New Roman"><b>
+                            <p >
                                 <ul style="list-style-type: disc; "><li>Images<ul><li style="text-indent:50px;"> <a href=" ">train</a>, <a href=" ">validation</a>, <a href=" ">test</a></li></ul></li><li>Annotations<ul><li style="text-indent:50px;">Visual Question Answering.  [<a href=" ">JSON files</a>]</li></ul></li></ul>
                                 <br>
-                                <h2 class="title is-5">Training, Validation, and Test Sets</h2>
+                                <p><b>Training, Validation, and Test Sets</b> </p>
                                 <ul style="text-indent:50px;list-style-type: disc;"><li>Training Set<ul><li>665 examples</li></ul></li><li>Validation Set<ul><li>285 examples </li></ul></li><li>Test Set<ul><li>63,746 examples</li></ul></li></ul>
             
             
-                            </b> </p>
+                            </p>
                     </div>
                     <div class="column2" style="">
 
                         <p>Details about each visual question are in the following format:</p>
-                        <pre><code >"image:{"VQAonline_00000001.png",
-"question":xxxx, 
-"context":xxxxx,
-"answers":xxxxx}"</code></pre>
+                        <pre><code >"image:{"VQAonline_00021900.png",
+"question":"What is the history of this coin? By Mandate of Heaven) Emperor of the Great Qin", Nurhaci - 1616-1626", 
+"context":"I want to know the complete history of this coin. ",
+"answer":"This particular coin is part of a set of commemorative tokens (aka fantasy coins) made in (modern) China, with a token for each of the Qing Dynasty emperors. This one shows Emperor Nurhaci with the dates when he was in power shown below his likeness on the "coin"."}"</code></pre>
                     </div>
                 </div>
 
@@ -267,7 +269,7 @@
             <img id="painting_icon" src="https://cdn-icons-png.flaticon.com/512/1698/1698535.png"> 
             <span style="font-size: 100%;">VQAonline Dataset</span>
         </h2>
-        <p style="font-family:Times New Roman"><b>
+        <p ><b>
             <ul style="list-style-type: disc;">
                 <li>Images
                     <ul>
@@ -312,8 +314,8 @@
               <a href="https://plotly.com/~lichunyuan24/1/?share_key=v4opE3TJpxqQ08RYsDD4iv" target="_blank" title="Plot 1" style="display: block; text-align: center;"><img id="painting_icon" width="75%" src="static/images/table_datasets.png"></a>
               <script data-plotly="lichunyuan24:1" sharekey-plotly="v4opE3TJpxqQ08RYsDD4iv" src="https://plotly.com/embed.js" async></script>
           </div>
-              <p style="font-family:Times New Roman"><b>
-                Characterization of existing VQA datasets and our new VQAonline in terms of mean question length (i.e., Q), mean answer length (i.e., A), number of images (i.e., Nimg), number of authentic topics (i.e., # Auth. Topics), inclusion of context, inclusion of authentic visual questions (i.e., Auth. VQ), inclusion of authentic context, and inclusion of answers validated by those asking the questions (i.e., Vld. A)).</b>
+              <p >
+                Characterization of existing VQA datasets and our new VQAonline in terms of mean question length (i.e., Q), mean answer length (i.e., A), number of images (i.e., Nimg), number of authentic topics (i.e., # Auth. Topics), inclusion of context, inclusion of authentic visual questions (i.e., Auth. VQ), inclusion of authentic context, and inclusion of answers validated by those asking the questions (i.e., Vld. A)).
                     
           </div>
         </div>
@@ -410,7 +412,11 @@
   <section class="section" id="BibTeX">
     <div class="container is-max-desktop content">
       <h2 class="title">BibTeX</h2>
-      <pre><code>BibTex Code Here</code></pre>
+      <pre><code>@article{chen2023vqaonline,
+        title={Fully Authentic Visual Question Answering Dataset from Online Communities}, 
+        author={Chen, Chongyan and Liu, Mengchen and Codella, Noel and Li, Yunsheng and Yuan, Lu  and Gurari, Danna},
+        journal={arXiv preprint arXiv:2311.15562},
+        year={2023}}</code></pre>
     </div>
 </section>
 
@@ -419,8 +425,8 @@
 <section class="section" id="BibTeX">
     <div class="container is-max-desktop content">
       <h2 class="title">Contact</h2>
-      <p style="font-family:Times New Roman"></p>
-        For any questions, comments, or feedback, please send them to Chongyan Chen at chongyanchen_hci@utexas.edu.    </p>    
+      <p ></p>
+        For any questions, comments, or feedback, please send them to Chongyan Chen at <a href="chongyanchen_hci@utexas.edu">chongyanchen_hci@utexas.edu</a>.    </p>    
     </div>
 </section>
 <!--End BibTex citation -->
